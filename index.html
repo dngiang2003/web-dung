@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/responsive.css">
+    <script src="./static/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./imgs/icon.ico">
+    <title>DAO DINH DUNG</title>
+</head>
+<body>
+    <!-- menu đầu tiên -->
+    <button onclick="goToTop()" id="btn-top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <div class="banner">
+        <div class="banner_nav">
+            <a href="index.html" class="banner_nav-logo">DAODINHDUNG</a>
+        </div>
+    </div>
+    <div class="content-title" id="about-me">
+        <div class="content-title-text"><h2>ABOUT <span>ME</span></h2></div>
+        <div class="content-title-line"></div>
+    </div>
+    <div class="content-2">
+        <div class="content-2-left">
+            <img src="./imgs/me1.png" alt="" srcset="">
+        </div>
+        <div class="content-2-right">
+            <h2 class="say-hello">Hello, I Am Dung</h2>
+            <p>I'm a second-year student at HaNoi University of Industry. My major is Software Engineering in the Faculty of Information Technology. In my major, Istudy how to make, test and document computer progams, software and websites. I have started seft-studying Python since early 2022 with some Automation projects. As for web design, starting in late 2022 with some Websites.</p>
+            <h2 class="title-info">Full Name</h2><p>: Đào Đình Dũng</p><br>
+            <h2 class="title-info">Age</h2><p>: 20</p><br>
+            <h2 class="title-info">Address</h2><p>: Ninh Giang, Hải Dương</p><br>
+            <h2 class="title-info">Phone</h2><p>: +84 3988 75027</p><br>
+            <h2 class="title-info">Email</h2><p>: dongocgiang.edu@gmail.com</p><br>
+            <a href="https://facebook.com/dngiang2003" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/giangdn1205" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-phone"></i></i></a>
+            <a href="mailto:dongocgiang.edu@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            <a href="https://youtube.com/@dngiang2003" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a> 
+        </div>
+    </div>
+    <div class="content-title" id="contact-me">
+        <div class="content-title-text"><h2>CONTACT <span>ME</span></h2></div>
+        <div class="content-title-line"></div>
+    </div>
+    <div class="content-6">
+        <form action="https://formspree.io/f/xgeqjwjv" method="POST">
+            <div class="form-name-email-subject">
+                <div class="form-name">
+                    <input name="name" id="full-name" type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-email">
+                    <input name="_replyto" id="email-address" type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-subject">
+                    <input name="_subject" id="email-subject" type="text" class="form-control" placeholder="Subject">
+                </div>
+            </div>
+            <div class="form-message">
+                <textarea name="message" class="form-control" rows="8" placeholder="Message (nhắn cfs có thể bỏ qua các ô ở trên)"></textarea>
+            </div>
+            <div class="form-btn">
+                <button type="submit" class="btn_apply">Send Message</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>CopyRight © 2023 DAODINHDUNG | All Rights Reserved</p>
+    </div>
+</body>
+</html>
